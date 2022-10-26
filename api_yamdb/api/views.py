@@ -24,7 +24,6 @@ from .serializers import (CategorySerializer, CommentSerializer,
                           TokenSerializer, UserSerializer)
 
 
-
 class CategoryGenreMixin:
     model = None
     serializer_class = None
