@@ -1,6 +1,5 @@
 from django.shortcuts import get_object_or_404
 from rest_framework import serializers
-
 from reviews.models import Category, Comment, Genre, Review, Title, User
 from reviews.settings import CODE_MAX_LENGHT, EMAIL_MAX_LENGHT, NAME_MAX_LENGHT
 from reviews.validators import validate_username
