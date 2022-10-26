@@ -13,6 +13,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 from rest_framework_simplejwt.tokens import RefreshToken
+from reviews.models import Category, Genre, Review, Title, User
 
 from .filters import TitleFilterSet
 from .permissions import (AdminOnly, AuthorModerAdminReadOnly,
@@ -21,7 +22,7 @@ from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, ReviewSerializer, SignupSerializer,
                           TitleReadSerializer, TitleWriteSerializer,
                           TokenSerializer, UserSerializer)
-from reviews.models import Category, Genre, Review, Title, User
+
 
 
 class CategoryGenreMixin:
