@@ -4,6 +4,10 @@
 
 [![Django-app workflow](https://github.com/misterio92/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)](https://github.com/misterio92/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
+### Адрес проекта в облаке
+
+Проект доступен по [адресу](http://158.160.4.112/) 
+
 ## Установка Docker
 Для запуска проекта на cервере необходимо выполнить следующий ряд действий для операционной системы Ubuntu:
 - Сделайте fork репозитория
