@@ -71,8 +71,6 @@ sudo apt install docker.io
 sudo systemctl stop nginx
 ```
 
-```
-
 Запуск docker-compose
 
 ```
