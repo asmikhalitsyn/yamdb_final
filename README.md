@@ -71,3 +71,31 @@ sudo apt install docker.io
 sudo systemctl stop nginx
 ```
 
+```
+
+Запуск docker-compose
+
+```
+docker-compose up -d --build
+```
+
+В контейнере выполнить миграции
+
+```
+docker-compose exec web python manage.py migrate
+```
+
+После создайте суперпользователя
+
+```
+docker-compose exec web python manage.py createsuperuser
+```
+
+Собрать статику:
+
+```
+docker-compose exec web python manage.py collectstatic --no-input
+```
+
+### Автор: [Михалицын Андрей](https://github.com/misterio92) :+1:
+http://158.160.4.112/redoc/

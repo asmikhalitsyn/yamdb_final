@@ -49,9 +49,9 @@ jobs:
           tags: andreymikh92/infra_actions:v1
 
   deploy:
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
-    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
     steps:
       - name: executing remote ssh commands to deploy
         uses: appleboy/ssh-action@master
