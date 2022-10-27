@@ -95,5 +95,5 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
 ```
 
-### Автор: [Михалицын Андрей](https://github.com/misterio92) :+1:
+### Автор: [Михалицын Андрей](https://github.com/misterio92)
 http://158.160.4.112/redoc/
